@@ -1,0 +1,25 @@
+{
+  "name": "Stormpath Laravel Example",
+  "description": "An endpoint you can use to see how the Laravel Integration works.",
+  "repository": "https://github.com/stormpath/stormpath-laravel-example",
+  "keywords": ["stormpath", "laravel", "identity", "security", "authentication"],
+  "success_url": "/login",
+  "env": {
+    "STORMPATH_CLIENT_APIKEY_ID": {
+      "description": "The API key ID from your ~/.stormpath/apiKey.properties file",
+      "value": "4CWXX4ZK74PYRIJA4I7ODNUC9"
+    },
+    "STORMPATH_CLIENT_APIKEY_SECRET": {
+      "description": "The API key secret from your ~/.stormpath/apiKey.properties file",
+      "value": "8cfMC+sQaA3BpGeOOIrnz4l+N5CLWK/4MA2sCSS+6jk"
+    },
+    "STORMPATH_APPLICATION_HREF": {
+      "description": "The URL for your Stormpath Application from the Stormpath Admin Dashboard",
+      "value": "https://api.stormpath.com/v1/applications/LaxvrILVKKg6zcX97mcuv"
+    },
+    "APP_KEY": {
+      "description": "A Sample App Key for you application.  You should run php artisan key:generate to create a new one",
+      "value": "base64:xAUXp9L+7SkWtss2wVVmYWIDJDhbgyyDnJkEkJ3winU="
+    }
+  }
+}
